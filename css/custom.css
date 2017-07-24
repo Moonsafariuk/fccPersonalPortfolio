@@ -19,6 +19,9 @@
 #contact{
 
 }
+#contact_background_image{
+  background-image: url("../images/cat.jpeg");
+}
 
 #footer{
 
@@ -30,4 +33,21 @@
 
 #copyright_bar{
 
+}
+
+#slider{
+
+}
+
+.parallax {
+    /*set the background image on element itself:
+    background-image: url("img_parallax.jpg"); */
+
+    /* Set a height for the image - can be applied individually */
+    height: 500px;
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

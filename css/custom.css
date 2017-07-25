@@ -2,13 +2,31 @@
 
 }
 
+.half-rule {
+  height: 1px;
+   width:100%;
+   display:block; /* for use on default inline elements like span */
+   margin: 9px 0;
+   overflow: hidden;
+   background-color: #e5e5e5;
+ }
 
 #page_body{
-
+margin: 0px;
+padding: 0px;
+overflow: hidden;
 }
 
 #about{
+padding-left: 10px;
+padding-right:10px;
+margin-bottom: 20px;
+}
 
+#about img{
+  border-radius: 50%;
+  height:80%;
+  width:100%;
 }
 
 
@@ -20,7 +38,7 @@
 
 }
 #contact_background_image{
-  background-image: url("../images/cat.jpeg");
+  background-image: url("../images/image1.jpeg");
 }
 
 #footer{
@@ -37,6 +55,10 @@
 
 #slider{
 
+}
+
+#slider img{
+height:500px;
 }
 
 .parallax {
